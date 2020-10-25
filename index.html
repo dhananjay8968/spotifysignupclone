@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up - Spotify</title>
+  <link rel="icon" href="img/spotify_icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="sign_up">
+    <div id="heading">
+      <!-- Logo Image -->
+      <a href="index.html">
+        <img class="logo-image" src="img/spotify_logo.png" alt="Spotify Logo" width="130px" height="40px">
+      </a>
+      <!-- Logo Heading -->
+      <h2 class="logo-heading">
+        Sign up for free to start listening.
+      </h2>
+    </div>
+    <div id="facebook_sign_up">
+      <a class="facebook_btn" href="https://www.facebook.com/" target="_blank">Sign up with facebook</a>
+    </div>
+    <div id="or-section">
+      <hr class="hr-1"> <p class="or-word"> or</p><hr class="hr-2">
+    </div>
+    
+      <h2 class="sign_up_heading">Sign up with your email address</h2>
+    
+    <div id="sign_up_form">
+      <div class="form-input">
+        <label for="email" type="email" name="email">What's your email?</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email."  required>
+      </div>
+      <div class="form-input">
+        <label for="confirm-email" type="email" name="confirm-email" required>Confirm your email</label>
+        <input type="email" name="confirm-email" id="confirm-email" placeholder="Enter your email again." required>
+      </div>
+      <div class="form-input">
+        <label for="password" type="password" name="password">Create a password</label>
+        <input type="password" name="password" id="password" placeholder="Create a password." required>
+      </div>  
+      <div class="form-input profile_name">
+        <label for="profile-name" type="text" name="profile-name">What should we call you?</label>
+        <input type="text" name="profile-name" id="profile-name" placeholder="Enter a profile name." required>
+        <div class="form_text_profile_name"><p>This appears on your profile.</p></div>
+      </div> 
+      
+      
+      <div class="to-be-in-single-line">
+        <div><label for="dob" name="dob">What's your date of birth?</label></div>
+ 
+ 
+        <select name="month" id="month" required>
+          <option value="" disabled selected>Month</option>
+          <option value="january">January</option>
+          <option value="february">February</option>
+          <option value="march">March</option>
+          <option value="april">April</option>
+          <option value="may">May</option>
+          <option value="june">June</option>
+          <option value="july">July</option>
+          <option value="august">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+        
+        <input type="number" name="day" id="day" max="31" min="1" placeholder="DD">
+        
+       
+        <input type="number" name="year" id="year" max="2020" min="1940" placeholder="YYYY">
+      </div>
+      
+      <div class="to-be-in-single-line">
+        <div><label for="gender" type="radio" name="gender">What's your gender?</label></div>
+
+       <input type="radio" name="gender" id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <input type="radio" name="gender" id="gender" value="non-binary">Non-binary
+
+      </div>
+
+       <div class="to-be-in-single-line marketing">
+        <input type="checkbox" name="marketing_list" id="marketing_list">
+       Share my registration data with Spotify's content providers for marketing purposes. 
+        
+      </div> 
+      <div class="g-recaptcha" data-sitekey="6Lfo8toZAAAAAG7cqVSXj5VVoQXYE_UYMpJpyPyP"></div>
+
+      <div id="tncandpp">
+       <p>By clicking on Sign up, you agree to Spotify's <a href="#">Terms and Conditions of Use</a>.</p> 
+ 
+      <p>To learn more about how Spotify collects, uses, shares and protects your personal data please read Spotify's <a href="#">Privacy Policy</a>.</p> 
+      </div>
+
+      <div class="submit-btn">
+        <a href="#">Sign up</a>
+      </div>
+
+      <footer id="bottom_log_in"><br>
+      <p>Have an account? <a href="#">Log in</a> </p>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
+</body>
+</html>

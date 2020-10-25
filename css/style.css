@@ -1,0 +1,282 @@
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/lineto-circular-black.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/lineto-circular-pro-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/lineto-circular-pro-book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+body{
+  font-family: "Circular", Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: rgb(24, 24, 24);
+}
+
+a{
+  text-decoration: none;
+}
+#sign_up{
+  width: 450px;
+  margin: auto;
+}
+
+.logo-image{
+  display: block;
+  margin: auto;
+}
+
+#heading{
+  padding: 40px 0 32px;
+  text-align: center;
+}
+
+#heading .logo-heading{
+  font-size: 32px;
+  white-space: nowrap;
+  line-height: 36px;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+  margin: 40px 0 0;
+}
+
+.facebook_btn{
+  background-color: rgb(58, 88, 151);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 16px 12px;
+  width: 450px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border: 0;
+  border-radius: 500px;
+  height: 48px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  transition-property: background-color, border-color, color, box-shadow, filter, transform;
+  user-select: none;
+  transform: translate3d(0px, 0px, 0px);
+  background-color: rgb(58, 88, 151);
+  color: rgb(255, 255, 255);
+  margin-bottom: 22px;
+} 
+
+.facebook_btn:hover{
+  transform: scale(1.04);
+  background-color: rgb(107, 130, 177);
+  color: rgb(255, 255, 255);
+}
+
+hr{
+  border: none;
+  border-top: 1px solid rgb(189, 189, 189);
+  width: 41%;
+}
+
+
+.or-word{
+  display: inline;
+  letter-spacing: 2px;
+}
+
+#or-section{
+  
+  width: 382.24px;
+  margin: auto;
+  margin-bottom: 16px;
+  color: #757575;
+  
+text-align: center;
+ 
+}
+
+
+
+.hr-1{
+  float: left;
+
+}
+
+.hr-2{
+  float: right;
+}
+
+ .sign_up_heading{
+ text-align: center;
+ padding-bottom: 18px;
+ font-size: 18px;
+ line-height: 26px;
+ letter-spacing: 0px;
+ font-weight: 700;
+}
+
+
+#sign_up_form .form-input label, .to-be-in-single-line label{
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: block;
+}
+
+
+#sign_up_form .form-input{
+  padding: 0 0 24px;
+}
+
+#sign_up_form .form-input input{ 
+  width: 100%;
+  padding: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  border-radius: 4px;
+  border: 1px solid rgb(149,149,149);
+
+}
+
+
+#sign_up_form .form-input input:focus{
+  outline: none;
+  border-color: #181818;
+}
+
+.form_text_profile_name{
+ 
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  
+}
+
+.profile_name{
+  padding: 0 0 24px;
+}
+
+
+.to-be-in-single-line{
+  padding: 0 0 24px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.to-be-in-single-line select, .to-be-in-single-line input{
+  
+  padding: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  border-radius: 4px;
+  border: 1px solid rgb(149,149,149);
+  margin-top: 8px;
+}
+
+
+.to-be-in-single-line label{
+  display: inline;
+  padding: 0 0 8px;
+}
+
+#day{
+  width: 76px;
+  margin-right: 21px;
+}
+
+#month{
+  width: 202.5px;
+  margin-right: 21px;
+}
+
+#year{
+  width: 112.5px;
+  float: right;
+}
+
+.to-be-in-single-line select:focus, .to-be-in-single-line input:focus{
+  outline: none;
+  border-color: #181818;
+}
+
+.to-be-in-single-line input[type=checkbox]{
+  float: left;
+  margin-right: 10px;
+}
+
+
+.marketing{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+#tncandpp{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+
+#tncandpp a, #bottom_log_in a{
+  color: rgb(29, 185, 84);
+  text-decoration: underline;
+}
+
+
+.submit-btn a{
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  transition-property: background-color, border-color, color, box-shadow, filter, transform;
+  transform: translate3d(0px, 0px, 0px);
+  padding: 17px 48px;
+  background-color: rgb(29, 185, 84);
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.submit-btn a:hover{
+  transform: scale(1.04);
+  background-color: rgb(30, 215, 96);
+  color: rgb(255, 255, 255);
+}
+
+#bottom_log_in{
+  text-align: center;
+}
